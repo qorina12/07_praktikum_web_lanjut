@@ -51,4 +51,5 @@
     </tr>
     @endforeach
     </table>
+    {{$mahasiswas->links('pagination::bootstrap-4')}}
 @endsection
